@@ -1,3 +1,5 @@
+## FACE DETECTION MODEL
+
 **Objectives:** Detects human face and its relative position in the frame
 **Achieved Results:**
 - **Data Collection:** none (uses available model (MTCNN-based [example](https://github.com/espressif/arduino-esp32/tree/07390157dfd968ad79449af1d98a2406302c8c33/libraries/ESP32/examples/Camera/CameraWebServer)))
@@ -9,4 +11,4 @@
 
 Since this function relies on already existing model, there is no measurable achieved results such as accuracy. When tested, it is more than accurate enough for implementation, although a bit slow.
 
-**Note:** The Github uses esp32 boards manager version v1.0.3. Newer versions will NOT have required libraries for MTCNN Face Recognition. Use Arduino IDE for main branch, a later ImpulseIO configuration will be uploaded to a separate branch.
+**Note:** The Github uses esp32 boards manager version v1.0.3. Newer versions will NOT have required libraries for MTCNN Face Recognition. Use Arduino IDE to use main branch code, a later ImpulseIO configuration will be uploaded to a separate branch.
