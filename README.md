@@ -2,7 +2,7 @@
 
 **Objectives:** Detects human face and its relative position in the frame
 **Achieved Results:**
-- **Data Collection:** none (uses available model (MTCNN-based [example](https://github.com/espressif/arduino-esp32/tree/07390157dfd968ad79449af1d98a2406302c8c33/libraries/ESP32/examples/Camera/CameraWebServer)))
+- **Data Collection:** none (uses MTCNN (example from esp32 library here (library used on app_httpd.cpp): [example](https://github.com/espressif/arduino-esp32/tree/07390157dfd968ad79449af1d98a2406302c8c33/libraries/ESP32/examples/Camera/CameraWebServer)))
 - **Framework:** Implemented using Espressif's ESP-DL (Deep Learning) library.
 - **Performance Mode:** Set to FAST, prioritizing detection speed over exhaustive accuracy.
 - **Input Resolution:** Operates on a QVGA (320x240 pixels) image frame.
